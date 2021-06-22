@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-
 }
 
 html {
@@ -42,6 +41,8 @@ main {
 }
 
 .right {
+  border: 2px solid white;
+  padding: 15px;
   width: 52rem;
   font-size: 2rem;
 }

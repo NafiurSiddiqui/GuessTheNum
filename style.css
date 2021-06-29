@@ -119,3 +119,15 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+.timerbtn {
+  width: 5em;
+  height: 1.7em;
+}
+
+.timer-header {
+  display: none;
+}
+.active {
+  display: inline;
+}

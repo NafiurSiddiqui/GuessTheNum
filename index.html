@@ -12,19 +12,22 @@
 
 <body>
 
-
-
-
   <header>
     <!-- <h1>Guess the Number!</h1>
     <p class="between">(Between 1 and 20)</p>
     <button class="btn again">Again!</button>
-    <div class="number">?</div>
-  </header> -->
+    <div class="number">?</div> -->
+  </header>
   <main>
-    <h3 > <span class="timer-header active"> Seconds Left:</span> <span id="time-left">60</span></h3>
+
+    <div class="overlay_user-input-modal">
+      <label for="input"></label>
+      <input type="number" class="overlay-user-input-guess">
+         <button class="btn check">Check!</button>
+    </div>
+    <!-- <h3 > <span class="timer-header active"> Seconds Left:</span> <span id="time-left">60</span></h3>
 <button class="timerbtn" id="start-button">Start</button>
-<button  class="timerbtn" id="stop-button">Stop</button>
+<button  class="timerbtn" id="stop-button">Stop</button> -->
     <!-- <section class="left">
       <input type="number" class="guess" />
       <button class="btn check">Check!</button>
@@ -37,8 +40,8 @@
       </p>
     </section> -->
   </main>
-  <script src="timer.js"></script>  
-  <!-- <script src="myScript_Refactored.js"></script> -->
+  <!-- <script src="timer.js"></script>   -->
+  <script src="myScript_Refactored.js"></script>
 </body>
 
 </html>

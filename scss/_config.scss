@@ -1,5 +1,19 @@
-@mixin flexCentered {
+$font-Electro: 'Electrolize', sans-serif;
+$font-medium: 2em;
+
+@mixin flexFullyCentered {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@mixin flexHorizontal {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+}
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }

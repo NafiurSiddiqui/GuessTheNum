@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
 .modal_overlay_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,35 +59,124 @@
   display: none;
 }
 
-#health_bar_container {
-  height: 5em;
-  width: 2em;
-  background-color: #eee;
-  border: 3px solid black;
-  position: relative;
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20em auto 20em;
+      grid-template-columns: 20em auto 20em;
+  height: 100vh;
 }
 
-#health_bar_container #bar1 {
+#health_left-lane {
+  background-color: #73808d;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#health_left-lane #health-bar_container {
+  height: 12em;
+  width: 7em;
+  margin-top: 1em;
+  padding: 0.2em;
+  background-color: #e2dfdf;
+  border: 3px solid black;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#health_left-lane #health-bar_container .health-bar {
+  width: 100%;
+  position: relative;
+  height: 2.2em;
+}
+
+#health_left-lane #health-bar_container #bar1 {
   background-color: #116a42;
   /* position: relative; */
 }
 
-#health_bar_container #bar2 {
-  background-color: #137c4d;
+#health_left-lane #health-bar_container #bar2 {
+  background-color: #187c4f;
 }
 
-#health_bar_container #bar3 {
+#health_left-lane #health-bar_container #bar3 {
   background-color: #158e58;
 }
 
-#health_bar_container #bar4 {
+#health_left-lane #health-bar_container #bar4 {
   background-color: #18a063;
 }
 
-#health_bar_container .health_bar_container-bar {
-  width: 100%;
-  padding: 0.1em;
-  height: 1.099em;
+#label_right-lane {
+  background-color: #73808d;
+  height: 100vh;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Electrolize", sans-serif;
+  font-size: 2em;
+}
+
+#label_right-lane #label-highscore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  height: 4em;
+  width: 80%;
+  background-color: black;
+  margin-bottom: 1.5em;
+  margin-top: -10em;
+}
+
+#label_right-lane #label-turn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  height: 4em;
+  width: 80%;
+  background-color: black;
 }
 
 * {

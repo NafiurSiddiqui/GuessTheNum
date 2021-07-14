@@ -11,9 +11,9 @@ const closeModal = function(){
 
 btnChk.addEventListener('click',closeModal)
 
-document.addEventListener('DOMContentLoaded',function(){
-    openModal();
-});
+// document.addEventListener('DOMContentLoaded',function(){
+//     openModal();
+// });
 
 // container.addEventListener('click',closeModal);
 

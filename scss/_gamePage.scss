@@ -1,0 +1,74 @@
+$laneColor: rgb(115, 128, 141);
+main {
+  display: grid;
+  grid-template-columns: 20em auto 20em;
+  height: 100vh;
+}
+
+#health_left-lane {
+  background-color: $laneColor;
+  height: 100vh;
+  display: flex;
+  @include flexHorizontal;
+
+  #health-bar_container {
+    height: 12em;
+    width: 7em;
+    margin-top: 1em;
+    padding: 0.2em;
+    background-color: rgb(226, 223, 223);
+    border: 3px solid black;
+    position: relative;
+    @include flexSpaceBetween;
+    flex-direction: column;
+    .health-bar {
+      width: 100%;
+      position: relative;
+      height: 2.2em;
+    }
+    #bar1 {
+      background-color: #116a42;
+      /* position: relative; */
+    }
+
+    #bar2 {
+      background-color: #187c4f;
+    }
+
+    #bar3 {
+      background-color: #158e58;
+    }
+
+    #bar4 {
+      background-color: #18a063;
+    }
+  }
+}
+
+#label_right-lane {
+  background-color: $laneColor;
+  height: 100vh;
+  //   display: flex;
+  border: 1px solid black;
+  @include flexFullyCentered;
+  flex-direction: column;
+  font-family: $font-Electro;
+  font-size: $font-medium;
+
+  #label-highscore {
+    @include flexFullyCentered;
+    border: 1px solid black;
+    height: 4em;
+    width: 80%;
+    background-color: black;
+    margin-bottom: 1.5em;
+    margin-top: -10em;
+  }
+  #label-turn {
+    @include flexFullyCentered;
+    border: 1px solid black;
+    height: 4em;
+    width: 80%;
+    background-color: black;
+  }
+}

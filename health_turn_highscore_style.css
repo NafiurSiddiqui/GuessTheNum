@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', sans-serif;  
+  }
+
+/* #background{       
+    background-color: #767881;    
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+#health_bar_container{
+    height: 7em;
+    width: 3em;
+    background-color: #eee;
+    border: 5px solid black;
+    position: relative;
+}
+
+#bar1{  
+    background-color: #116A42;
+    /* position: relative; */           
+}
+
+#bar2{  
+    background-color: #137C4D;            
+}
+
+#bar3{  
+    background-color: #158E58;
+   }
+
+#bar4{  
+    background-color: #18a063;            
+}
+
+.health_bar_container-bar{
+    width: 94%;
+    padding: .1em;
+    height: 1.555em;
+    
+}
+
+#turn{
+    height: 2em;
+    width: 15em;
+    background-color: black;
+    color: red;
+    position: relative;
+    left: 80em;
+    bottom: 7em;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#high-score{
+    height: 2em;
+    width: 15em;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    left: 80em;
+    bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

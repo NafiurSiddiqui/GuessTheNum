@@ -11,7 +11,7 @@ let userInput = document.querySelector('guess');
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 // aiNumber.textContent = secretNumber;
-let score = 20;
+let score = 30;
 let highscore = 0;
 
 // mini functions

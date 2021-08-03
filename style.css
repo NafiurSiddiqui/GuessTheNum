@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-
 }
 
 html {
@@ -42,6 +41,8 @@ main {
 }
 
 .right {
+  border: 2px solid white;
+  padding: 15px;
   width: 52rem;
   font-size: 2rem;
 }
@@ -117,4 +118,16 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+.timerbtn {
+  width: 5em;
+  height: 1.7em;
+}
+
+.timer-header {
+  display: none;
+}
+.active {
+  display: inline;
 }
